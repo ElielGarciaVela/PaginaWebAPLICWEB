@@ -1,0 +1,15 @@
+body {
+    color: white;
+    font-weight: normal;
+    font-family: "Roboto", sans-serif;
+    background-image: url('C:/Users/egarvel2907/Desktop/AplicWeb/HTML_CSS/Relaciones de ejercicios/HTML6/PagWeb/Principal/imagenes/StarRailBackground.jpg');
+}
+
+a {
+    color: gold;
+    font-size: large;
+}
+
+a:hover {
+    color: gray;
+}

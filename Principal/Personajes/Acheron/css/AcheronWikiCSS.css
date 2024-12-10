@@ -1,0 +1,205 @@
+header {
+    background: linear-gradient(rgb(109, 0, 109), red);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: normal; 
+    color: white;
+    background-image: url('C:\Users\egarvel2907\Desktop\AplicWeb\HTML_CSS\Relaciones de ejercicios\HTML6\PagWeb\Principal\Personajes\Acheron\imagenes\AcheronBackgroundOpacity.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav {
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    font-size: 20px;
+}
+
+ul {
+    padding: 0%;
+}
+
+nav li {
+    width: 25%;
+    background-color: rgb(0, 0, 0, 0.8);
+    box-shadow: 5px 10px 10px black;
+    border: 1px solid rgb(109, 0, 109);
+    border-radius: 5px;
+    list-style-type: none;
+    display: inline-block;
+    padding: 4px 70px;
+    margin: 0%;
+    text-align: center;
+}
+
+a {
+    color: rgb(109, 0, 109);
+    text-shadow: 4px 4px 10px black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover {
+    color: red
+}
+
+a#this_page {
+    color: rgb(255, 49, 49);
+    cursor: default;
+}
+
+section {
+    text-align: center;
+}
+
+#contenido {
+    width: 50%;
+    margin: auto;
+}
+
+
+.bordeado {
+    background-color: rgb(0, 0, 0, 0.9);
+    width: 100%;
+    border: 1px solid purple;
+    border-radius: 10px;
+    text-align: center;
+    padding: 1px 5px 30px 5px;
+    box-shadow: 0px 0px 4px purple;
+}
+
+hr {
+    width: 80%;
+}
+
+footer {
+    font-size: 13px;
+}
+
+#toTop {
+    background-color: rgb(0, 0, 0, 0.8);
+    border: 1px solid rgb(109, 0, 109);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+ol#ListaIndice > a{
+color: rgb(255, 49, 49);
+font-size: 18px;
+}
+
+#SumarioTitulo {
+    color: rgb(255, 49, 49);
+}
+
+#ListaIndice {
+    text-align: left;
+}
+
+.Flex {
+    display: flex;
+    justify-content: start;
+    column-gap: 40px;
+}
+
+#MainBlock {
+    text-align: left;
+    float: left;
+    width: 91%;
+    min-width: 200px;
+}
+
+#MainBlock > p {
+    font-weight: lighter;
+    width: 40%;
+    text-align: left;
+    margin: 50px 0px 0px 150px;
+    min-width: 300px;
+}
+
+#AcheronTitleLeft {
+    font-size: 30px;
+    padding: 0px 0px 0px 20px;
+}
+
+#Quote {
+    font-weight:lighter;
+    width: 500px;
+    border: 1px solid rgb(44, 44, 44);
+    margin: 50px 0px 0px 150px;
+    background-color: rgb(44, 44, 44);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#Caracteristicas {
+    color: rgb(255, 49, 49) ;
+    font-size: 26px;
+    text-align: left;
+    margin: 50px 0px 0px 150px;
+}
+
+/* Videos CCS */
+
+#VideosRelativos {
+    color: rgb(255, 49, 49);
+    font-size: 26px;
+    text-align: left;
+    margin: 50px 0px 0px 150px;
+
+}
+
+#Trailer {
+    position: relative;
+    left: 10%;
+    margin: 0px 0px 50px 0px;
+}
+
+.TextoVideos {
+    text-align: left;
+    margin: 40px 0px 20px 50px;
+}
+
+.Video {
+    border: 1px solid rgb(255, 49, 49);
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+#BlockDerecha {
+    padding: 0px 5px 0px 5px;
+    float: right;
+    margin: 0px 100px 0px 0px;
+    width: 25%;
+    min-width: 300px;
+}
+
+.InformacionGeneral {
+    text-align: left;
+    font-weight: lighter;
+    margin-left: 10%;
+}
+.InformacionGeneral > img {
+    margin-left: 50%;
+}
+
+#InfoGeneralNihilidad {
+    margin-left: 56%;
+}
+
+#InfoGeneralElemento {
+    margin-left: 44%;
+}
