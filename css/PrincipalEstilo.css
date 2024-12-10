@@ -2,7 +2,7 @@ body {
     color: white;
     font-weight: normal;
     font-family: "Roboto", sans-serif;
-    background-image: url('imagenes/StarRailBackground.jpg');
+    background-image: url("../imagenes/StarRailBackground.jpg");
 }
 
 a {
